@@ -7,3 +7,10 @@ Ans->  In the following elements the values are 'hello', -87.8, 6 and Expression
 
 Ans-> String is a data type, a sequence of characters. In python a string is represented with single or double quotes. Whereas a variable is a naem that holds / refers any values. 
 It can be of any data type such as int, float, boolean, string etc
+
+3. Describe three different data types
+
+Ans->
+Int - Integer data type contains a whole number(non floating value). It can be negative or positive whole number. Eg -> 50, -23, 1, 5
+Float - Float data type contains franctions(numbers with decimals). Eg-> 2.365, 50.21, 12.0
+String - String data type contains sequence of characters. It can be represented with '' or "". Eg -> "Data Analytics", 'Hello World', '99999'
