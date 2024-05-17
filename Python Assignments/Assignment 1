@@ -1,4 +1,9 @@
-Q1. In the below elements which of them are values or an expression? eg:- values can be
+1. In the below elements which of them are values or an expression? eg:- values can be
 integer or string and expressions will be mathematical operators
 
 Ans->  In the following elements the values are 'hello', -87.8, 6 and Expressions are *, -, /, +
+
+2. What is the difference between string and variable?
+
+Ans-> String is a data type, a sequence of characters. In python a string is represented with single or double quotes. Whereas a variable is a naem that holds / refers any values. 
+It can be of any data type such as int, float, boolean, string etc
