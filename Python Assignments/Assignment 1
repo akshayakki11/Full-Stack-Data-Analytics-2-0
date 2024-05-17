@@ -14,3 +14,21 @@ Ans->
 Int - Integer data type contains a whole number(non floating value). It can be negative or positive whole number. Eg -> 50, -23, 1, 5
 Float - Float data type contains franctions(numbers with decimals). Eg-> 2.365, 50.21, 12.0
 String - String data type contains sequence of characters. It can be represented with '' or "". Eg -> "Data Analytics", 'Hello World', '99999'
+
+4. What is an expression made up of? What do all expressions do?
+
+Ans-> An expression can be made up off variables, values and operators. It produces some result after being interpreted
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+
+Ans-> An expression evaluates to a value, whereas a statement performs an action. In the assignment statement "spam = 10", "spam" is a variable, and "10" is a value. 
+The entire statement is an example of a statement because it assigns the value 10 to the variable spam
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Ans-> the value 22 is stored in variable bacon. next, when 1 is added to it the value becomes 23 but will not change the original value 22 which is stored in bacon variable. 
+
+
