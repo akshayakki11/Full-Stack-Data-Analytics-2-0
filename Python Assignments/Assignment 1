@@ -31,4 +31,14 @@ bacon + 1
 
 Ans-> the value 22 is stored in variable bacon. next, when 1 is added to it the value becomes 23 but will not change the original value 22 which is stored in bacon variable. 
 
+7. What should the values of the following two terms be?
+
+Ans-> Values should be the same. 
+'spam' + 'spamspam' = 'spamspamspam'
+'spam' * 3 = 'spamspamspam'
+
+8 .Why is eggs a valid variable name while 100 is invalid?
+
+Ans-> A Variable in python can start with a letter or an underscore. Here eggs is a valid python varible which startswith a letter whereas 100 starts with a numeric value
+and is an invalid variable type in python
 
