@@ -53,4 +53,4 @@ str(): Converts a value to a string.
 10. Why does this expression cause an error? How can you fix it?
 
 Ans-> Because A string and a int value cannot be concatinated. First we need to convert the int vlaue to string and then concate with string value. 
-
+'I have eaten' + str(99) + ' burritos.'
