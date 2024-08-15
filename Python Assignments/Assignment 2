@@ -1,2 +1,5 @@
 1.What are the two values of the Boolean data type? How do you write them?
 A-> The two types of Boolean data types are True and False. We can assign these boolean values to a veriable. ex. a = True
+
+2. What are the three different types of Boolean operators?
+A-> Three boolean operators are AND, OR and NOT
