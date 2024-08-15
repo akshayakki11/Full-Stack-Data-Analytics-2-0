@@ -3,3 +3,26 @@ A-> The two types of Boolean data types are True and False. We can assign these 
 
 2. What are the three different types of Boolean operators?
 A-> Three boolean operators are AND, OR and NOT
+
+3. Make a list of each Boolean operator&#39;s truth tables (i.e. every possible combination of Boolean
+values for the operator and what it evaluate)
+A->
+True and True is True.
+
+True and False is False.
+
+False and True is False.
+
+False and False is False.
+
+True or True is True.
+
+True or False is True.
+
+False or True is True.
+
+False or False is False.
+
+Not True is False.
+
+Not False is True
