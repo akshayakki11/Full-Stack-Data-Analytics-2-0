@@ -26,3 +26,77 @@ False or False is False.
 Not True is False.
 
 Not False is True
+
+4. What do the following expressions evaluate to?
+
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+
+A->
+False
+False
+True
+False
+False
+True
+
+5. What are the six comparison operators?
+A-> ==, !=, <, >, <=, and >=.
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+A-> == is the equal to operator that compares two values and evaluates to a Boolean, while = is the assignment operator that stores a value in a variable
+
+7. Identify the three blocks in this code:
+A->
+The three blocks are everything inside the if statement and the lines print('bacon') and print('ham').
+
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+
+8. 8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+
+A-> spam = int(input("Input a no."))
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("Greetings!")
+
+9. If your programme is stuck in an endless loop, what keys you’ll press?
+A-> If program is stuck in endless loop we will press ctrl+c.
+
+10. How can you tell the difference between break and continue?
+A-> The break statement will move the execution outside and just after a loop.
+    Whereas The continue statement will move the execution to the start of the loop
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+A-> The range(10) call ranges from 0 up to 9 (10-1), range(0, 10) explicitly tells the loop to start at 0, and range(0, 10, 1) explicitly tells the loop to increase the variable by 1 on each iteration.
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+A->
+For loop:
+for i in range(1, 11):
+print(i)
+
+While loop:
+
+i = 1
+while i <= 10:
+print(i)
+i = i + 1
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after
+importing spam?
+A->
+This function can be called with spam.bacon()
