@@ -1,0 +1,101 @@
+1. What exactly is []?
+
+Empty square brackets [] represents an empty list in Python. A list is an ordered collection of items, which can be of different data types (numbers, strings, etc.).
+
+2. In a list of values stored in a variable called spam, how would you assign the value &#39;hello&#39; as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Let&#39;s pretend the spam includes the list [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;] for the next three queries.
+
+Python
+spam = [2, 4, 6, 8, 10]
+spam[2] = 'hello'  # Indexing starts from 0, so 2 is the third position
+print(spam)  
+Output: [2, 4, 'hello', 8, 10]
+
+3. What is the value of spam[int(int(&#39;3&#39; * 2) / 11)]?
+
+Python
+spam = ['a', 'b', 'c', 'd']
+result = spam[int(int('3' * 2) / 11)]  # Evaluates to spam[0]
+print(result)  #
+Output: 'a'
+
+4. What is the value of spam[-1]?
+
+Python
+print(spam[-1])  
+Output: 'd'  Negative index accesses elements from the end
+
+5. What is the value of spam[:2]?
+
+Python
+print(spam[:2])  
+Output: ['a', 'b']
+
+6. What is the value of bacon.index(&#39;cat&#39;)?
+
+Python
+bacon = [3.14, 'cat', 11, 'cat', True]
+index = bacon.index('cat')
+print(index)  
+Output: 1 (index of the first occurrence)
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+
+Python
+bacon.append(99)
+print(bacon)  
+Output: [3.14, 'cat', 11, 'cat', True, 99]
+
+8. How does bacon.remove(&#39;cat&#39;) change the look of the list in bacon?
+
+Python
+bacon.remove('cat')
+print(bacon)  
+Output: [3.14, 11, 'cat', True, 99]
+
+9. What are the list concatenation and list replication operators?
+
+Concatenation: + operator joins lists.
+Replication: * operator repeats a list multiple times.
+
+10. What is difference between the list methods append() and insert()?
+
+append(x) adds x to the end of the list.
+insert(i, x) inserts x at index i.
+
+11. What are the two methods for removing items from a list?
+
+remove(x) removes the first occurrence of x.
+pop(i) removes and returns the item at index i (default: last item).
+del list[i] can also remove items.
+
+12. Describe how list values and string values are identical
+
+Both are ordered sequences of elements.
+Strings are immutable (can't be changed), while lists are mutable.
+
+13. What&#39;s the difference between tuples and lists?
+
+Tuples are immutable ie. can't be changed after creation
+Use parentheses () for tuples, square brackets [] for lists
+
+14. How do you type a tuple value that only contains the integer 42?
+
+(42,)  (Comma is required for single-element tuples)
+
+15. How do you get a list value&#39;s tuple form? How do you get a tuple value&#39;s list form?
+
+tuple(list) converts a list to a tuple.
+list(tuple) converts a tuple to a list.
+
+16. Variables that contain list values are not necessarily lists themselves. Instead, what do they
+contain? 
+
+In Python, variables that contain list values are not the lists themselves but rather references to the list objects in memory
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+
+copy.copy() creates a new object, but it does not create copies of the objects that are nested within the original object. Instead, it only copies references to the nested objects
+
+copy.copy() when you want to duplicate an object, but you're okay with the nested objects being shared between the original and the copied object
