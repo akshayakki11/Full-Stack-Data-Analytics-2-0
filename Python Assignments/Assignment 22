@@ -1,0 +1,78 @@
+1. What is the result of the code, and explain?
+
+&gt;&gt;&gt; X = &#39;iNeuron&#39;
+&gt;&gt;&gt; def func():
+print(X)
+
+The result is: iNeuron
+When the function func() is called, it prints the value of the variable X.
+The variable X is defined outside the function func(), making it a global variable
+
+2. What is the result of the code, and explain?
+
+&gt;&gt;&gt; X = &#39;iNeuron&#39;
+&gt;&gt;&gt; def func():
+X = &#39;NI!&#39;
+
+&gt;&gt;&gt; func()
+&gt;&gt;&gt; print(X)
+
+The result is: iNeuron
+ The variable X is defined outside the function func(), making it a global variable.
+he local variable X is assigned the value 'NI!' within the function. This does not affect the value of the global variable X.
+
+3. What does this code print, and why?
+
+&gt;&gt;&gt; X = &#39;iNeuron&#39;
+&gt;&gt;&gt; def func():
+X = &#39;NI&#39;
+print(X)
+
+&gt;&gt;&gt; func()
+&gt;&gt;&gt; print(X)
+
+The reulst is: NI
+iNeuron
+ Inside the function func(), another variable named X is defined. This creates a local variable that shadows the global variable with the same name.
+The local variable X is assigned the value 'NI', and then its value is printed within the function.
+
+4. What output does this code produce? Why?
+
+&gt;&gt;&gt; X = &#39;iNeuron&#39;
+&gt;&gt;&gt; def func():
+global X
+X = &#39;NI&#39;
+
+&gt;&gt;&gt; func()
+&gt;&gt;&gt; print(X)
+
+The result is: NI
+
+5. What about this code—what’s the output, and why?
+
+&gt;&gt;&gt; X = &#39;iNeuron&#39;
+&gt;&gt;&gt; def func():
+X = &#39;NI&#39;
+def nested():
+print(X)
+nested()
+
+&gt;&gt;&gt; func()
+&gt;&gt;&gt; X
+
+Thre result is: NI
+iNeuron
+
+6. How about this code: what is its output in Python 3, and explain?
+
+&gt;&gt;&gt; def func():
+X = &#39;NI&#39;
+def nested():
+nonlocal X
+X = &#39;Spam&#39;
+nested()
+print(X)
+
+&gt;&gt;&gt; func()
+
+The result is: Spam
