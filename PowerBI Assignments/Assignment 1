@@ -1,0 +1,34 @@
+1. What do you mean by BI? Explain.
+
+BI stands for Business Intelligence.  It's a broad term that encompasses the processes, tools, and technologies used to collect, store, analyze, and interpret data to help businesses make informed decisions.
+BI helps organizations make more informed decisions by providing up-to-date and accurate data.
+Organizations can track their performance, measure success, and identify areas for improvement.
+
+2. How Power-BI helps in BI, and how does it help Analysts? Explain.
+Power BI is a popular business intelligence (BI) tool developed by Microsoft that helps organizations collect, analyze, and visualize data to make informed decisions. 
+It offers a comprehensive suite of features that streamline the BI process and empower analysts to extract valuable insights from their data.
+
+*Power BI automates many of the manual tasks involved in data analysis, freeing up analysts to focus on higher-value activities.
+*Power BI automates many of the manual tasks involved in data analysis, freeing up analysts to focus on higher-value activities.
+
+3.Explain Descriptive analytics?
+Descriptive Analytics is a branch of data analytics that focuses on summarizing and describing existing data. 
+It provides insights into the past and present state of a dataset, helping you understand the basic characteristics and patterns within your data.
+Eg: Grouping customers based on their characteristics and behaviors to understand different customer segments.
+
+4. Explain Predictive analytics?
+Predictive Analytics is a branch of data analytics that uses statistical models and machine learning algorithms to predict future outcomes or trends based on historical data. 
+It goes beyond simply describing past data to forecast what might happen in the future.
+Eg;  Identifying customers at risk of leaving a company to implement retention strategies.
+
+5. Explain perspective analytics?
+
+Prescriptive Analytics is the final and most advanced stage of data analytics that focuses on recommending specific actions or decisions based on data analysis. It goes beyond simply predicting what will happen 
+and offers guidance on what actions to take to influence future outcomes or solve complex problems
+
+6. Write five real-life questions that PowerBi can solve.
+ How are sales trends changing over time?
+ How are our employees performing against key performance indicators (KPIs)?
+ What are the key factors driving sales performance?
+ Which marketing channels are most effective in driving customer engagement and conversion?
+ What is the employee turnover rate and which departments have the highest attrition?
