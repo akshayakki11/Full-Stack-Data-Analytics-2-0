@@ -1,0 +1,49 @@
+1. Create an assert statement that throws an AssertionError if the variable spam is a negative
+integer.
+spam = -7
+assert spam >= 0
+
+2. Write an assert statement that triggers an AssertionError if the variables eggs and bacon contain
+strings that are the same as each other, even if their cases are different (that is, &#39;hello&#39; and &#39;hello&#39; are
+considered the same, and &#39;goodbye&#39; and &#39;GOODbye&#39; are also considered the same).
+eggs = "hello"
+bacon = "Hello"
+assert eggs.lower() != bacon.lower(), "Eggs and bacon cannot be the same (case-insensitive)"
+
+3. Create an assert statement that throws an AssertionError every time.
+assert False, "This assertion will always fail"
+
+4. What are the two lines that must be present in your software in order to call logging.debug()?
+import logging
+logging.basicConfig()
+
+5. What are the two lines that your program must have in order to have logging.debug() send a
+logging message to a file named programLog.txt?
+logging.basicConfig(filename='programLog.txt', level=logging.DEBUG)
+
+6. What are the five levels of logging?
+The five levels of logging are:
+DEBUG
+INFO
+WARNING
+ERROR
+CRITICAL
+
+7. What line of code would you add to your software to disable all logging messages?
+logging.disable(logging.CRITICAL)
+
+8.Why is using logging messages better than using print() to display the same message?
+Logging provides a centralized way to control the output of messages.
+Logging allows you to categorize messages based on their severity.
+Logging messages can be formatted and customized.
+
+9. What are the differences between the Step Over, Step In, and Step Out buttons in the debugger?
+Step Over: Executes the current line and moves to the next line.
+Step In: If the current line is a function call, it steps into the function.
+Step Out: Executes the rest of the current function and returns to the caller.
+
+10.After you click Continue, when will the debugger stop ?
+The debugger will stop when it reaches a breakpoint or an exception occurs.
+
+11. What is the concept of a breakpoint?
+A breakpoint is a location in your code where the debugger pauses execution so that you can inspect variables or step through the code line by line.
