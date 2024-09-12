@@ -1,0 +1,51 @@
+1. What is the relationship between def statements and lambda expressions ?
+In Python, both def statements and lambda expressions are used to create functions, but they differ in syntax, use cases, and capabilities
+
+def statement:
+Used to define named functions that can contain multiple statements, complex logic, and documentation 
+
+lambda expression:
+Used to create anonymous (unnamed) functions, often for short, simple tasks. Typically used when a function is needed temporarily or passed as an argument.
+
+2. What is the benefit of lambda?
+The lambda expression in Python offers several benefits, particularly when it comes to simplicity and conciseness. 
+Lambda expressions provide a concise way to define anonymous functions.
+Lambda expressions can be used to pass functions as arguments to other functions
+It can be used to create temporary functions that are only needed in a specific context
+It can be used in list comprehensions and generator expressions to apply functions to elements of a sequence
+
+3. Compare and contrast map, filter, and reduce.
+Map and filter are often used together to perform complex transformations on sequences.
+Reduce is useful for calculations like summation, product, or finding the maximum/minimum value.
+Functional programming libraries like functools provide built-in implementations of map, filter, and reduce.
+
+4. What are function annotations, and how are they used?
+Function annotations are a Python feature introduced in version 3.0 that allow you to provide hints about the types of arguments and return values of a function. These annotations are purely optional and do not affect the runtime behavior of the code.
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
+result = greet("Alice")
+print(result)  # Output: Hello, Alice!
+
+5. What are recursive functions, and how are they used?
+Recursive functions are functions that call themselves directly or indirectly. They are often used to solve problems that can be broken down into smaller, similar subproblems.
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+6. What are some general design guidelines for coding functions?
+A function should have a single, well-defined responsibility.
+Avoid creating functions that do too many things.
+Use meaningful names that are easy to understand.
+Avoid using abbreviations or cryptic names.
+Aim for functions that are relatively short and focused.
+Use the right number and types of arguments to convey the necessary information.
+Use consistent indentation and formatting.
+Use appropriate exception handling mechanism
+
+7. Name three or more ways that functions can communicate results to a caller.
+Return value: This is the most common method. The function calculates a value and returns it to the caller using the return statement.
+Modifying global variables: The function can modify global variables that are accessible outside the function's scope. 
+Output parameters: The function can take arguments that are passed by reference, allowing the function to modify the values of those arguments and communicate the results back to the caller
