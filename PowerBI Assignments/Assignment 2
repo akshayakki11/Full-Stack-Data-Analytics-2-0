@@ -1,0 +1,70 @@
+1. Explain the advantages of Natural Queries in PowerBi with an example?
+Natural Queries in Power BI allow users to ask questions about their data in plain English, eliminating the need for complex SQL queries or DAX formulas. 
+This feature significantly enhances accessibility and usability for both technical and non-technical users.
+
+eg: Imagine we have a dataset containing sales data with columns like Product, Sales Amount, and Sales Date. Using Natural Queries, you could ask questions like:
+
+What were the total sales for Product A in 2023?
+Show me the top 5 products by sales amount in the last quarter.
+How has the sales trend for Product B changed over the past year?
+
+2. Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+The Web Front End (WFE) cluster is a critical component of the Power BI Service architecture responsible for handling user interactions and requests. 
+It acts as the gateway between users and the backend services that process data and generate visualizations.
+It handles requests for actions like opening reports, interacting with dashboards, managing datasets, or publishing content from Power BI Desktop to the Power BI service.
+Authentication:
+
+3. Explain Back End cluster from Power BI Service Architecture?
+
+The Back End cluster in Power BI Service architecture is responsible for processing data, generating visualizations, and storing data. It consists of multiple servers that work together to handle the heavy lifting of data processing and storage.
+Handles data ingestion, transformation, and storage. This involves tasks such as cleaning, filtering, and aggregating data.
+Stores data in a highly scalable and efficient manner, using technologies like Azure Data Lake Storage Gen2.
+
+4. What ASP.NET component does in Power BI Service Architecture?
+In the Power BI Service Architecture, ASP.NET components play a vital role in managing the Web Front End (WFE). Specifically, 
+ASP.NET is used to build the web application layer that handles user interactions, authentication, and routing requests to the appropriate backend services.
+
+5. Compare Microsoft Excel and PowerBi Desktop on the following features:
+Data import
+Data transformation
+Modeling
+Reporting
+Server Deployment
+Convert Models
+Cost
+
+
+Data Import
+Excel: Limited to importing data from various sources like CSV, Excel files, and text files.
+Power BI Desktop: Offers a wider range of data sources, including databases (SQL Server, MySQL, Oracle), cloud services (Azure, Salesforce), and APIs.
+
+Data Transformation
+Excel: Basic data cleaning and transformation capabilities (filtering, sorting, formulas).
+Power BI Desktop: Powerful data transformation capabilities, including data cleansing, aggregation, grouping, and calculated columns.
+
+Modeling
+Excel: Limited modeling capabilities, primarily using pivot tables and formulas.
+Power BI Desktop: Robust modeling capabilities, including data relationships, hierarchies, and measures.
+
+Reporting
+Excel: Can create basic reports using pivot tables, charts, and other visualization tools.
+Power BI Desktop: Offers a rich set of visualization tools for creating interactive and customizable reports and dashboards.
+
+Server Deployment
+Excel: No server deployment required.
+Power BI Desktop: Can be used to create Power BI Desktop reports, which can then be published to the Power BI service for sharing and collaboration.
+
+Convert Models
+Excel: No direct conversion of models.
+Power BI Desktop: Can import Excel workbooks and convert them into Power BI models, preserving data and calculations.
+
+Cost
+Excel: Typically included in Microsoft Office suites, making it a relatively low-cost option.
+Power BI Desktop: Free to use, but additional costs may apply for premium features and large-scale deployments.
+
+6. List 20 data sources supported by Power Bi desktop.
+
+SQL Server, MySQL, Oracle, PostgreSQL, Teradata, Sybase, SAP HANA, IBM DB2, Azure SQL Database, Azure Synapse Analytics, AWS Redshift, Google BigQuery, Snowflake, Salesforce
+Dynamics 365, Excel, CSV, Text files, JSON, XML
+
+
