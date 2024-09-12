@@ -1,0 +1,30 @@
+1)What is the difference between enclosing a list comprehension in square brackets and
+parentheses?
+square brackets []: This creates a list. The entire comprehension is evaluated and stored in memory immediately.
+Parentheses (): This creates a generator. Instead of building the entire list in memory at once, it generates items one at a time as they are needed, saving memory for large datasets.
+
+2) What is the relationship between generators and iterators?
+All generators are iterators, but not all iterators are generators.
+Both generators and iterators can be iterated over using next(), and they raise StopIteration when exhausted.
+The main difference is how they are created: generators are defined using the yield keyword inside a function, while iterators can be any object that implements the iterator protocol
+
+3) What are the signs that a function is a generator function?
+A generator function uses yield to return values incrementally, rather than return.
+When invoked, the function returns a generator object, not the final result of its computation.
+The function pauses after each yield and resumes execution when the next value is requested.
+
+4) What is the purpose of a yield statement?
+he purpose of the yield statement in Python is to turn a regular function into a generator, allowing it to produce a sequence of values lazily (i.e., one at a time, as needed) instead of computing and returning them all at once
+
+5) What is the relationship between map calls and list comprehensions? Make a comparison and
+contrast between the two.
+Map Calls:
+  Takes a function and an iterable as arguments.
+  Applies the function to each element of the iterable.
+  Returns a map object, which is an iterator.
+  To get the actual results, you need to convert the map object to a list or other sequence type.
+List Comprehensions:
+  Combines the creation of a new list with the application of a function to each element.
+  The expression part is evaluated for each element in the iterable.
+  The if condition part is optional and filters the elements based on a condition.
+  Directly returns a new list.
